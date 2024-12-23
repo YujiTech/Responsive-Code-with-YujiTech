@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&family=Squada+One&display=swap');
+.font-squada{
+    font-family: "Squada One", sans-serif;
+}
+.font-righteous{
+    font-family: "Righteous", sans-serif;
+}
+.font-lobster{
+    font-family: "Lobster", sans-serif;
+}
+.font-Oleo{
+    font-family: "Oleo Script", system-ui;
+}
+.font-Time{
+    font-family: 'Times New Roman', Times, serif;   
+}
+.text-shadow{
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+.acticle p{
+    font-size: clamp(12px, 3.4vw, 18px);
+  }
+.acticle h1{
+    font-size: clamp(30px, 3.7vw, 100px);
+    font-weight: bold;
+    text-shadow: 0px 0px 4px black;
+  }
+.text-hover:hover{
+    color: rgb(249, 212, 0) !important;
+    text-shadow: 2 px 2px 4px white !important;
+}
+.image-card:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+html{
+    scroll-behavior: smooth;
+  }

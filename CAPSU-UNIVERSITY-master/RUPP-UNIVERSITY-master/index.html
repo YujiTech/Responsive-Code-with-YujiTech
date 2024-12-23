@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsu State University</title>
+    <link rel="shortcut icon" href="logo/capsu (2).png" type="image/x-icon">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css -->
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="style/benner.css">
+     <link rel="stylesheet" href="style/hero.css">
+     <!-- link aos animetion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Library animetion -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container-fluid p-0">
+        <nav id="navbar" class="navbar navbar-expand-lg  fixed-top">
+            <div class="container py-3 py-md-4 ">
+                <div class="col-lg-3 ">
+                    <a href="" class="navbar-brand d-flex align-items-center">
+                        <img src="logo/capsu (2).png" alt="" style="width: 40px;">
+                    <h3 class="mx-2 text-warning text-uppercase fw-bold m-0 p-0 font-righteous ">Capsu University</h3>
+                    </a>
+                </div>
+                <button class="navbar-toggler justify-content-end shadow-none border-0 text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#navofcanvas">
+                    <i class="bi bi-list fs-1"></i>
+                </button>
+                <div class="col-lg-9 collapse navbar-collapse justify-content-between ps-5">
+                    <ul class="navbar-nav  font-squada ">
+                        <li><a href="#" class="nav-link text-hover mx-lg-3 mx-0 px-2 fs-4 text-warning active">Home</a></li>
+                        <li><a href="#about" class="nav-link text-hover mx-lg-3 mx-0 px-2 fs-4 text-light">About</a></li>
+                        <li><a href="#Courses" class="nav-link text-hover mx-lg-3 mx-0 px-2 fs-4 text-light">Courses</a></li>
+                        <li><a href="#Gallery" class="nav-link text-hover mx-lg-3 mx-0 px-2 fs-4 text-light">Gallery</a></li>
+                        <li><a href="#Contact" class="nav-link text-hover mx-lg-3 mx-0 px-2 fs-4 text-light">Contact</a></li> 
+                    </ul>
+                    <div class="dropdown font-squada">
+                        <button
+                          class="btn border-0 text-light fs-4 dropdown-toggle text-hover"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          
+                        >
+                          <i class="bi bi-person-circle mb-3 px-2"></i>Account
+                        </button>
+                        <ul class="ms-3  dropdown-menu px-3 border-0 mt-4 " style="background-color: #802000;">
+                          <li >
+                            <a class="dropdown-item text-hover text-light " href="Login.html" target="_blank"
+                              >Sign In</a
+                            >
+                          </li>
+                          <li><a class="dropdown-item text-hover text-light" href="#">Sign Out</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- ofcanvas -->
+    <div class="container-fluid ">
+      <div class="offcanvas offcanvas-end w-50 pb-2 " id="navofcanvas" data-bs-scroll="true">
+        <div class="offcanvas-header border-bottom pb-3 pt-4" style="background-color: #802000;">
+            <div class="offcanvas-title d-flex align-items-center py-md-2" >
+                <img src="logo/capsu (2).png" alt="" style="width: 40px;">
+                <h3 class="mx-2 text-warning  m-0 fw-bold font-righteous text-uppercase">Capsu University/h3>
+            </div>
+          <button type="button" class="btn-close shadow-none bg-light rounded-5 " data-bs-dismiss="offcanvas" ></button>
+        </div>
+        <div class="offcanvas-body font-squada">
+            <div class="row">
+          <div class="col-6">
+                <ul class="navbar-nav">
+                    <li><a href="#" class="nav-link mx-lg-4 mx-0 px-2 fs-5 text-hover text-warning active">Home</a></li>
+                    <li><a href="#about" class="nav-link mx-lg-4 mx-0 px-2 fs-5 text-hover text-secondary">About</a></li>
+                    <li><a href="#Courses" class="nav-link mx-lg-4 mx-0 px-2 fs-5 text-hover text-secondary">Courses</a></li>
+                </ul>
+          </div>
+          <div class="col-6">
+                <ul class="navbar-nav ">
+                    <li><a href="#Gallery" class="nav-link mx-lg-4 mx-0 px-2 fs-5 text-hover text-secondary">Gallery</a></li>
+                    <li><a href="#Contact" class="nav-link mx-lg-4 mx-0 px-2 fs-5 text-hover text-secondary">Contact</a></li>  
+                </ul>
+            </div>
+        </div>
+          <div class="px-2 py-2 border-bottom">
+            <form action="" class="d-flex align-items-center border mb-3 px-2">
+              <i class="bi bi-search fs-4"></i>
+              <input
+                type="text"
+                class="form-control shadow-none border-0"
+                placeholder="Search..."
+              />
+              <span>Ctrl+k</span>
+            </form>
+          </div>
+          <div class="dropdown mt-2 ms-2 ">
+            <button
+              class="btn  text-light dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown" 
+              style="background-color: #802000;"
+            >
+              <i class="bi bi-person-circle mb-3 px-2 Landscape In Rupp University"></i>Account
+            </button>
+            <ul class="dropdown-menu " style="background-color: #802000;">
+              <li>
+                <a class="dropdown-item text-hover text-light" href="Login.html" target="_blank"
+                  >Sign In</a
+                >
+              </li>
+              <li><a class="dropdown-item text-hover text-light" href="#">Sign Out</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- mian content -->
+     <div class="hero  bg-black position-relative">
+        <div class="blur position-absolute"></div>
+            <div id="carouselExampleIndicators" class="carousel slide h-100 w-100">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                <div class="carousel-inner h-100 ">
+                        <div class="carousel-item active h-100 position-relative font-lobster">
+                            <div class="acticle position-absolute z-2 text-light top-50 px-3  translate-middle-y">
+                                <div class="col-12 col-md-7 col-lg-5 sans-serif w-100">
+                                
+                                    <h1 class="animate__animated animate__zoomInDown  text-shadow textint-benner">
+                                        <span class="text-warning ">Capsu University </span>
+                                        Of pilar
+                                    </h1>
+                                    <p class="mt-3 text-limit animate__animated animate__zoomInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga ullam minima facere soluta rerum,</p>
+                                    
+                                </div>
+                            </div>    
+                            <img src="image/download (2).jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item h-100 position-relative font-lobster">
+                            <div class="acticle position-absolute z-2 text-light top-50 px-3  translate-middle-y">
+                                <div class="col-12 col-md-7 col-lg-5 sans-serif w-100">
+                                
+                                    <h1 class="animate__animated animate__zoomInDown  text-shadow textint-benner">
+                                        <span class="text-warning ">Capsu University</span>
+                                        Of pilar
+                                    </h1>
+                                    <p class="mt-3 text-limit animate__animated animate__zoomInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga ullam minima facere soluta rerum,</p>
+                                    
+                                    
+                                </div>
+                            </div>    
+                            <img src="image/agtalin-shrine-capiz.jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item h-100 position-relative font-lobster">
+                            <div class="acticle position-absolute z-2 text-light top-50 px-3  translate-middle-y">
+                                <div class="col-12 col-md-7 col-lg-5 sans-serif w-100">
+                                
+                                    <h1 class="animate__animated animate__zoomInDown  text-shadow textint-benner">
+                                        <span class="text-warning ">Capsu University</span>
+                                        Of pilar
+                                    </h1>
+                                    <p class="mt-3 text-limit animate__animated animate__zoomInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga ullam minima facere soluta rerum,</p>
+                                </div>
+                            </div>    
+                            <img src="image/download5.jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                    
+                 </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+              </div>
+        
+
+     </div>
+     <!-- About Our University -->
+     <div class="container p-0">
+        <div id="about" class="text-center pt-5 px-4 font-righteous">
+            <h1 class="fw-bold ">About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut a dolor fugit dignissimos voluptas accusantium facilis quisquam sed in.</p>
+        </div>
+        <div class="row mt-5 font-righteous" >
+            <div class="col-md-6 col-12  px-4 pe-md-0" style="height: 400px;"data-aos="zoom-in"
+            data-aos-eseing="ease-in-out"
+            data-aos-delay="300" >
+                <img id="objpic"onmouseover="onOver()" onmouseout="onOut()" class="h-100 w-100 object-fit-cover" src="image/image.jpg" alt="">   
+            </div>
+            <div class="col-md-6 col-12  py-1 px-4 mt-2 mt-md-0 font-righteous">
+                <div class="px-3">
+                    <h1 class="fw-bold text-warning text-shadow ">Our University</h1>
+                    <p class="text-acticle1">CAPSU is committed to provide advance knowledge and innovation; develop skills, talents and values; undertake relevant research, development and extension services; promote entrepreneurship and environmental consciousness; and enhance industry collaboration and linkages with partner agencies..</p>
+                   
+                    <p class="text-acticle2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit a culpa dignissimos ipsum pariatur accusamus, optio maxime voluptates quisquam necessitatibus suscipit? Optio porro asperiores quas assumenda repudiandae, ullam aliquid!
+                    Et, autem.  </p>
+                    <button class="btn btn-primary mt-3">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div id="Courses" class="text-center pt-5 px-4 font-righteous ">
+            <h1 class="fw-bold">Courses</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut a dolor fugit dignissimos voluptas accusantium facilis quisquam sed in.</p>
+        </div>
+        <div class="row py-4 ">
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-lg-1 px-4 px-md-2 " data-aos="zoom-in"
+            data-aos-eseing="ease-in-out"
+            data-aos-delay="300">
+                <div class="p-3 bg-light  rounded-2 shadow">
+                    <div class="overflow-hidden rounded-2 Courses1" >
+                        <img class="image-card w-100 h-100 object-fit-cover " src="image/Courses1.jpg" alt="">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="font-righteous ">BSINFOTECH</h5> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, eius!</p>
+                        <button class="btn btn-primary mt-3 font-righteous">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3  mt-lg-1 px-4 px-md-2"data-aos="zoom-in"
+            data-aos-eseing="ease-in-out"
+            data-aos-delay="500">
+                <div class="p-3 bg-light  rounded-2 shadow">
+                    <div class="overflow-hidden rounded-2" style="height: 280px;">
+                        <img class="image-card w-100 h-100 object-fit-cover " src="image/Facebook.jpg" alt="">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="font-righteous">Capsu Student Fam</h5>  
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, eius!</p>
+                        <button class="btn btn-primary mt-3 font-righteous">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 mt-3 mt-md-3  mt-lg-1 px-4 px-md-2"data-aos="zoom-in"
+            data-aos-eseing="ease-in-out"
+            data-aos-delay="700">
+                <div class="p-3 bg-light  rounded-2 shadow">
+                    <div class="overflow-hidden rounded-2" style="height: 280px;">
+                        <img class="image-card w-100 h-100 object-fit-cover " src="image/image2.jpg" alt="">
+                    </div>
+                    <div class="p-2">
+                        <h5 class="font-righteous">BSIT 1A</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, eius!</p>
+                        <button class="btn btn-primary mt-3 font-righteous">Read More</button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div id="Landscape" class="text-center pt-5 px-4 font-righteous">
+            <h1 class="fw-bold  ">Infrmation Technology Gallery</h1>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut a dolor fugit dignissimos voluptas accusantium facilis quisquam sed in.</p>
+        </div>
+        <div class="row py-4 px-3 font-righteous ">
+            <div class="col-lg-12 col-md-12 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery 1.jpg" alt=""> 
+                </div>
+            </div>  
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery4.jpg" alt=""> 
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery5.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery8.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery7.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-3 mt-md-3" >
+                <div class="bg-danger overflow-hidden rounded-1 LandscapeAll" >
+                    <img class="image-card w-100 h-100 object-fit-cover " src="image/Gallery6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="Contact" class="text-center pt-5 px-4 font-righteous">
+            <h1 class="fw-bold">Contact Kh</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut a dolor fugit dignissimos voluptas accusantium facilis quisquam sed in.</p>
+        </div>
+        <div class="row py-4 font-righteous ">
+            <div class="col-md-6 col-12 px-5 ps-md-3 pe-md-2 form ">
+                <form name="student" class="w-100 h-100 m-auto text-light p-3 rounded bg-secondary" >
+                    <h2 class="text-center">Input Infomation Student</h2>
+                        <label for="user">Username: </label>
+                        <input type="text" placeholder="Enter name.." name="user" class="form-control">
+                        <label for="sex">Gender</label>
+                        <input type="text" placeholder="Enter Gender.." name="sex"  class="form-control">
+                        <label for="sc">School</label>
+                        <input type="text" class="form-control " name="sc" list="school">
+                        <datalist id="school">
+                            <option value="RUPP School"> Capsu School</option>
+                            <option value="ETEC School">ETEC School</option>
+                            <option value="SETEC School">SETEC School</option>
+                            <option value="TECHNO School">TECHNO School</option>
+                        </datalist>
+                        <label for="n">Input Student Number: </label>
+                        <input type="text" placeholder="Enter Number.." name="number"  class="form-control  mt-2">
+                        <label for="test">Infomation</label>
+                        <textarea name="db" cols="10" rows="3" class="form-control"></textarea>
+                        <button  type="button" onclick="Add()" class="btn btn-danger mt-2">Add</button>
+                        <button type="reset" class="btn btn-dark mt-2 mx-3">Clear</button>
+                </form>
+            </div>
+            <div class="col-md-6 col-12  mt-3 mt-md-0 px-5 ps-md-2 pe-md-3" >
+                    <iframe class="map-contact rounded-2" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkm0EJhWl2kMvWwZl2nvtSoYThnrSwpXF3Vs-j7zUor0PSa3hdshoZQjihb0OYluPo4Bh83X0VvVyS7gw2Ca9cX5PJv4mi1aG5wSNwTuBx56mTRytilj73WOQypa5zCtjdd0m0woVKsDc/s1600/map+of+capiz.jpg"></iframe>
+            </div>
+        </div>
+     </div>
+     <!-- footer -->
+      <footer>
+        <div class="container-fluid bg-primary p-0">
+            <div class="container pt-5 " >
+                <div class="row pt-3 ">
+                    <div class="col-md-3 h-text col-12 px-4">
+                        <h5 class="text-uppercase font-righteous text-light "><i class="fa-solid fa-house me-2 "></i>University</h5>
+                        <div class="py-4">
+                            <p class="text-light font-squada">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor alias dicta enim eveniet obcaecati, voluptatem maiores ratione eos iste!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 h-text col-12 px-4">
+                        <h5 class="text-uppercase font-righteous text-light ">Products</h5>
+                        <div class="py-4">
+                            <ul class="navbar-nav font-squada">
+                                <li><a class="nav-link text-light pt-0" href="#">Home</a></li>
+                                <li><a class="nav-link text-light" href="#">About</a></li>
+                                <li><a class="nav-link text-light" href="#">Course</a></li>
+                                <li><a class="nav-link text-light" href="#">Contact Kh</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 h-text col-12 px-4">
+                        <h5 class="text-uppercase font-righteous text-light ">Useful Links</h5>
+                        <div class="py-4">
+                            <ul class="navbar-nav font-squada">
+                                <li><a class="nav-link text-light pt-0" href="#">Pricing</a></li>
+                                <li><a class="nav-link text-light" href="#">Settings</a></li>
+                                <li><a class="nav-link text-light" href="#">Orders</a></li>
+                                <li><a class="nav-link text-light" href="#">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 h-text col-12 px-4">
+                        <h5 class="text-uppercase font-righteous text-light ">Contact</h5>
+                        <div class="py-4">
+                            <ul class="navbar-nav font-squada">
+                                <li><a class="nav-link text-light pt-0" href="#"><i class="fa-solid fa-house me-3 "></i>capsu university of pilar</a></li>
+                                <li><a class="nav-link text-light" href="#"><i class="fa-solid fa-envelope me-3"></i>https://www.capsu.edu.ph/.com</a></li>
+                                <li><a class="nav-link text-light" href="#"><i class="fa-solid fa-phone me-3"></i>+ 123 456 789</a></li>
+                                <li><a class="nav-link text-light" href="#"><i class="fa-solid fa-mobile-screen-button me-3"></i>+ 123 456 789</a></li>    
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="container-fluid bg-dark p-0 font-righteous px-4">
+            <h1  class="fs-6 text-center m-0 text-light py-4 " style=" letter-spacing: 2px;">
+                Copyright @2024 All rights reserved | This template is made by <span class="sans-serif text-warning fw-bold auto-type" style="letter-spacing: 2px;"></span>
+            </h1>
+            </div>
+        </div>
+      </footer>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?fbclid=IwY2xjawFwVaRleHRuA2FlbQIxMAABHeJ8NPxpuUluvD5NUmA0Tvsq1PT5WepPIo3x1wglWc0p1KQJk3XhLP_1yQ_aem_6BW4iUjVsOAjuuZ37nFuFw"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+      var typed = new Typed('.auto-type', {
+          
+          strings: ['YujiTech', 'FullStack Developer'],
+          typeSpeed: 130,
+          backSpeed: 130,
+          loop: true,
+        });
+    </script>
+</body>
+</html>

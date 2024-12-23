@@ -1,0 +1,110 @@
+
+@media (max-width: 576px) {
+    .offcanvas {
+        width: 75% !important;
+      }
+    .acticle {
+      padding: 0px 60px !important;
+    }
+    .text-limit{
+      overflow: hidden;
+       display: -webkit-box;
+       -webkit-line-clamp: 1; /* number of lines to show */
+               line-clamp: 3; 
+       -webkit-box-orient: vertical;
+    }
+    .text-acticle1{
+      overflow: hidden;
+       display: -webkit-box;
+       -webkit-line-clamp: 4; /* number of lines to show */
+               line-clamp: 3; 
+       -webkit-box-orient: vertical;
+    }
+    .text-acticle2{
+      overflow: hidden;
+       display: -webkit-box;
+       -webkit-line-clamp: 2; /* number of lines to show */
+               line-clamp: 3; 
+       -webkit-box-orient: vertical;
+    }
+    .form{
+      height: 520px;
+    }
+    .map-contact{
+      height: 300px;
+    }
+    .h-text{
+      height: 220px;
+    }
+    .Courses1{
+      height: 280px;
+    }
+    .LandscapeAll{
+      height: 250px;
+    }
+}
+/* @media (min-width: 576px) {
+    
+  } */
+@media (min-width: 768px) {
+  .acticle {
+    padding: 0px 120px !important;
+  }
+  .text-acticle1{
+    overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 5; /* number of lines to show */
+             line-clamp: 3; 
+     -webkit-box-orient: vertical;
+  }
+  .text-acticle2{
+    overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 4; /* number of lines to show */
+             line-clamp: 3; 
+     -webkit-box-orient: vertical;
+  }
+  .form{
+    height: 550px;
+  }
+  .map-contact{
+    height: 550px;
+  }
+  .h-text{
+    height: 300px;
+  }
+  .Courses1{
+    height: 303px;
+  }
+  .LandscapeAll{
+    height: 280px;
+  }
+}
+@media (min-width: 992px) {
+  .acticle {
+    padding: 0px 320px !important;
+  }
+  .text-acticle1{
+    overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 6; /* number of lines to show */
+             line-clamp: 3; 
+     -webkit-box-orient: vertical;
+  }
+  .text-acticle2{
+    overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 5; /* number of lines to show */
+             line-clamp: 3; 
+     -webkit-box-orient: vertical;
+  }
+  .h-text{
+    height: 250px;
+  }
+  .Courses1{
+    height: 280px;
+  }
+  .LandscapeAll{
+    height: 400px;
+  }
+}
