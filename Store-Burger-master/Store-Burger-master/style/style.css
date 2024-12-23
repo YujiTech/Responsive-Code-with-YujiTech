@@ -1,0 +1,13 @@
+.text-burger{
+    font-size: clamp(50px, 6vw, 100px);
+    text-shadow: 0px  2px black;
+}
+.text-shadow{
+    text-shadow: 0px  2px black;
+}
+.text-super{
+    font-size: clamp(35px, 4vw, 100px);
+}
+.html-scroll{
+    scroll-behavior: smooth;
+}

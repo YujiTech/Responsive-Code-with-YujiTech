@@ -1,0 +1,23 @@
+.benner-back{
+  background-color: rgba(0, 0, 0, 0.477);
+}
+.burger {
+  animation: run 4s linear infinite;
+  
+}
+@keyframes run {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.btn-nav{
+    cursor: pointer;
+}
+
+
